@@ -51,7 +51,7 @@ status: 404
 #### Brak ID:
 ```js
 {
- "response": "Nie znaleziono napisów dla podanego video"
+ "response": "Nie podano ID filmu (URL lub ID filmu)"
 }
 
 status: 400

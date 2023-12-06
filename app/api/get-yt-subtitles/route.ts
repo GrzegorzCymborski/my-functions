@@ -19,7 +19,7 @@ const getTranscript = async (videoId: string): Promise<Transcript[]> => {
 const badRequestResponse = () =>
   NextResponse.json(
     {
-      response: 'Nie znaleziono napisów dla podanego video',
+      response: 'Nie podano ID filmu (URL lub ID filmu)'
     },
     {
       status: 400,
